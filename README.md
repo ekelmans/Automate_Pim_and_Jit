@@ -17,10 +17,27 @@ And for the CiSo's allready whining in the background... this scipt can do nothi
 Usage:
 ------------------------------------------------------------------------------
 
-Open one of the PS1 files, copy all the text and paste it as plain text into the cloudshell
+Open one of the PS1 files, change the variables in the beginning of the file, copy all the text and paste it as plain text into the cloudshell
 
 * Automate_PIM_and_JIT.ps1 does the PIM and the JIT
 * Reactivate_JIT.ps1 is used after your JIT window expires, but the PIM is still valid.
+
+*Variables*
+
+Filter the ScopeDisplayNames you want to PIM for, if you don't know for which roles you are eligible, run the GetEligibleRoles command 
+
+#$NameFilter = '*risk*' # *risk* only
+
+$NameFilter = '*aq*'  # *aq* only
+
+#$NameFilter = '*'  # everything
+
+$StartDT = Get-Date -Format o (When should the PIM window start, you can plan it for tommorow if you want it)
+
+$duration = 'PT8H' # PIM window size: Period Time 8 Hours (this might be different in your company)
+
+$reason = "Requested by: " + (az ad signed-in-user show)[3].Split(":")[1].replace('"', '').replace(',','') + " for APP/DB maintenance"  (defaults to your name)
+
 
 ------------------------------------------------------------------------------
 
