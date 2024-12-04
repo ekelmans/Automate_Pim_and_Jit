@@ -118,7 +118,7 @@ xxxaq-a-lz   aqxxx-a-rg    aq01-a-jh03-vm  Standard_D2s_v5    VM running    10.1
 xxxaq-a-lz   aqxxx-a-rg    aq01-a-ssms-vm  Standard_D2s_v5    VM running    10.188.x.y               default PT1H     3389 TCP      10.0.0.0/8 2024-12-04 14:32:23
 xxxaq-d-lz   aqxxx01-d-rg  aq03-d-aq-vm    Standard_DS14_v2   VM running    10.147.x.y               default PT1H     3389 TCP      10.0.0.0/8 2024-12-04 14:32:41
 xxxaq-d-lz   aqxxx01-d-rg  aq03-d-ce-vm    Standard_D2s_v5    VM running    10.147.x.y               default PT1H     3389 TCP      10.0.0.0/8 2024-12-04 14:33:06
-xxxaq-d-lz   aqxxx01-d-rg  aq03-d-jss-vm   Standard_D2s_v5    VM running    10.147.x.y              default PT1H     3389 TCP      10.0.0.0/8 2024-12-04 14:33:38
+xxxaq-d-lz   aqxxx01-d-rg  aq03-d-jss-vm   Standard_D2s_v5    VM running    10.147.x.y              default PT1H     3389 TCP      10.0.0.0/8 2024-12-04 14:33:38
 xxxaq-d-lz   aqxxx01-d-rg  aq03-d-sql03-vm Standard_E8bds_v5  VM running    10.147.x.y               default PT1H     3389 TCP      10.0.0.0/8 2024-12-04 14:33:55
 xxxaq-d-lz   aqxxx01-d-rg  aq03-d-ssms-vm  Standard_D2s_v5    VM running    10.147.x.y               default PT1H     3389 TCP      10.0.0.0/8 2024-12-04 14:34:11
 xxxaq-d-lz   aqxxx01-d-rg  aqrs1-d-ce-vm   Standard_D2s_v5    VM running    10.147.x.y               default PT1H     3389 TCP      10.0.0.0/8 2024-12-04 14:34:28
