@@ -41,6 +41,12 @@ $reason = "Requested by: " + (az ad signed-in-user show)[3].Split(":")[1].replac
 
 ------------------------------------------------------------------------------
 
+Feel free to use the code! :)
+
+Feedback, bug reports and pull requests are always welcome!
+
+------------------------------------------------------------------------------
+
 An example of some of the output when connection to *aq* 
 
 ``` 
