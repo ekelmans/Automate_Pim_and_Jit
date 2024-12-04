@@ -3,13 +3,22 @@
 
 This is my first attempt to write a Azure cloud shell script that will (based on a filter parameter) itereate through all your subscriptions, resource groups and VM's, start a PIM request, wait for all PIM's to be approved, start JIT's for all found VM's and report back with some extra info.
 
-Simply open a coudshell on https://portal.azure.com/#home 
+Simply open a coudshell on https://portal.azure.com/#home and paste the content of one of the ps1 files as plain text in the cloudshell.
 
 ![image](https://github.com/user-attachments/assets/8bef3e8c-b52a-4969-a860-03cbdbb6607c)
 
 The nice thing is that the cloudshell pre-autenticates you, so the script can run immediately in the correct security context :)
 
 And for the CiSo's allready whining in the background... this scipt can do nothing more then automate what a user can do via the portal gui.
+
+------------------------------------------------------------------------------
+
+Usage:
+------------------------------------------------------------------------------
+
+Automate_PIM_and_JIT.ps1 does the PIM and the JIT
+
+Reactivate_JIT.ps1 is used after your JIT window expires, but the PIM is still valid.
 
 ------------------------------------------------------------------------------
 
